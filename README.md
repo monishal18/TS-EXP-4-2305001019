@@ -20,6 +20,16 @@ To compute and plot the Autocorrelation Function (ACF) of a time-series dataset 
 5. Display the ACF values.
 6. Plot and interpret the ACF graph.
 
+## Observation
+The ACF plot shows the correlation between observations and their previous values at different lags. The pattern helps identify possible time-series models.
+
+- If ACF tails off gradually, an AR model may be appropriate.
+- If ACF cuts off after a few significant lags, an MA model may be considered.
+- If ACF tails off with oscillation, an ARMA model may be considered.
+
+ACF alone is not sufficient to determine the exact model order. PACF and other diagnostic checks should also be considered.
+
+
 ##  Program
 ```
 
@@ -78,14 +88,6 @@ plt.show()
  <img width="832" height="612" alt="image" src="https://github.com/user-attachments/assets/24bb72c1-8504-4e0b-ab19-0d3d37dda912" />
 
 
-## Observation
-The ACF plot shows the correlation between observations and their previous values at different lags. The pattern helps identify possible time-series models.
-
-- If ACF tails off gradually, an AR model may be appropriate.
-- If ACF cuts off after a few significant lags, an MA model may be considered.
-- If ACF tails off with oscillation, an ARMA model may be considered.
-
-ACF alone is not sufficient to determine the exact model order. PACF and other diagnostic checks should also be considered.
 
 ## Result
 Thus, the Autocorrelation Function (ACF) was successfully calculated and plotted for the first 35 lags. The ACF pattern can be used to identify a suitable time-series model.
