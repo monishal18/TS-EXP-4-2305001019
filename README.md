@@ -69,13 +69,13 @@ plt.show()
 ```
 ## Expected Output
 - Original time-series graph.
-- <img width="830" height="360" alt="image" src="https://github.com/user-attachments/assets/af2c2595-5eb0-489a-a85f-2707aca3f40c" />
+<img width="830" height="360" alt="image" src="https://github.com/user-attachments/assets/af2c2595-5eb0-489a-a85f-2707aca3f40c" />
 
 - ACF values from lag 0 to lag 35.
-- <img width="607" height="811" alt="image" src="https://github.com/user-attachments/assets/04f74515-a1fe-4256-a349-7d909aa442e5" />
+  <img width="607" height="811" alt="image" src="https://github.com/user-attachments/assets/04f74515-a1fe-4256-a349-7d909aa442e5" />
 
 - ACF plot showing autocorrelation bars and confidence limits.
-- <img width="832" height="612" alt="image" src="https://github.com/user-attachments/assets/24bb72c1-8504-4e0b-ab19-0d3d37dda912" />
+ <img width="832" height="612" alt="image" src="https://github.com/user-attachments/assets/24bb72c1-8504-4e0b-ab19-0d3d37dda912" />
 
 
 ## Observation
